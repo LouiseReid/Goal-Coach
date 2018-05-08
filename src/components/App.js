@@ -12,7 +12,7 @@ class App extends React.Component {
 
   render(){
     return(
-      <div>
+      <div style={{margin: '5px'}}>
         <h3>Goals</h3>
         <AddGoal />
         <GoalList />
@@ -28,7 +28,6 @@ class App extends React.Component {
 }
 
 function mapStateToProps(state){
-  console.log('state', state);
   return {}
 }
 
